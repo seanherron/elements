@@ -4,7 +4,8 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-
+  
+#elements {
 .gradient(@color: #F5F5F5, @start: #EEE, @stop: #FFF) {
   background: @color;
   background: -webkit-gradient(linear,
@@ -155,5 +156,6 @@
   -o-transform: translate(@x, @y);
   -ms-transform: translate(@x, @y);
   transform: translate(@x, @y);
+}
 }
 
